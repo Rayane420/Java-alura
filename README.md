@@ -10,10 +10,11 @@ Como tivemos muitos acessos ao site oficial ele acabou saindo do ar e por isso u
 Link oficial IMDB: https://imdb-api.com/api<br>
 Link usado no projeto: https://mocki.io/v1/9a7c1ca9-29b4-4eb3-8306-1adb9d159060
 2. Obter os Filmes mais populares exibindo:
-  - [ ] Seu nome
-  - [ ] Sua classificação
-  - [ ] Seus pôsteres
-Tudo isso sem usar nenhuma biblioteca externa
+  - [ ] Titulo do Filme
+  - [ ] Classificação no IMDB
+  - [ ] Poster do Filme
+<br>
+Tudo isso sem usar bibliotecas externas
  
 #### Desafios da aula 01:
 - Consumir o endpoint de filmes mais populares da API do IMDB. Procurar na documentação da API do IMDB, o endpoint que retorna as melhores séries e o que retorna as séries mais populares.

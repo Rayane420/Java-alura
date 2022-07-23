@@ -1,8 +1,5 @@
 # Imersão Java - Alura <img src="https://github.com/Rayane420/Java-alura/blob/main/Java-logo.png" width="80" height="40"/> 
 
-
-
-
 AULA 01 - CONSUMINDO UMA API DE FILMES COM JAVA
 #### Objetivos: 
 1. Construir uma aplicação do zero para consumir a API do IMDB <br>

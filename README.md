@@ -1,14 +1,15 @@
 # Imersão Java - Alura <img src="https://github.com/Rayane420/Java-alura/blob/main/Java-logo.png" width="80" height="40"/> 
 
-
+<img src="https://github.com/Rayane420/Java-alura/blob/main/Java-logo.png" width="80" height="40"/> 
 
 
 AULA 01 - CONSUMINDO UMA API DE FILMES COM JAVA
 #### Objetivos: 
 1. Construir uma aplicação do zero para consumir a API do IMDB <br>
+
 Como tivemos muitos acessos ao site oficial ele acabou saindo do ar e por isso usamos os links disponibilizados pelos instrutores: <br>
 Link oficial IMDB: https://imdb-api.com/api<br>
-Link usado no projeto: https://mocki.io/v1/9a7c1ca9-29b4-4eb3-8306-1adb9d159060
+Link usado no projeto: https://mocki.io/v1/9a7c1ca9-29b4-4eb3-8306-1adb9d159060 <br>
 2. Obter os Filmes mais populares exibindo:
   - [ ] Titulo do Filme
   - [ ] Classificação no IMDB

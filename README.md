@@ -1,4 +1,7 @@
-# Semana Java da alura
+# Imersão Java - Alura <img src="https://github.com/Rayane420/Java-alura/blob/main/Java-logo.png" width="80" height="40"/> 
+
+
+
 
 AULA 01 - CONSUMINDO UMA API DE FILMES COM JAVA
 #### Objetivos: 

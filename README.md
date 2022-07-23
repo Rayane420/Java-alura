@@ -1,6 +1,18 @@
 # Semana Java da alura
 
-### Desafios da aula 01:
+AULA 01 - CONSUMINDO UMA API DE FILMES COM JAVA
+#### Objetivos: 
+1. Construir uma aplicação do zero para consumir a API do IMDB 
+Como tivemos muito acesso ao site oficial ele acabou saindo do ar e por isso usamos links disponibilizados pelos instrutores
+Link oficial IMDB: https://imdb-api.com/api
+Link usado no projeto: https://mocki.io/v1/9a7c1ca9-29b4-4eb3-8306-1adb9d159060
+2. Obter os Filmes mais populares exibindo:
+  - [ ] Seu nome
+  - [ ] Sua classificação
+  - [ ] Seus pôsteres
+Tudo isso sem usar nenhuma biblioteca externa
+ 
+#### Desafios da aula 01:
 - Consumir o endpoint de filmes mais populares da API do IMDB. Procurar na documentação da API do IMDB, o endpoint que retorna as melhores séries e o que retorna as séries mais populares.
 
 - Usar a criatividade para deixar a saída dos dados mais bonitinha: usar emojis com código UTF-8, mostrar a nota do filme como estrelinhas, decorar o terminal com cores, negrito e itálico usando códigos ANSI, e mais!

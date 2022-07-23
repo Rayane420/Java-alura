@@ -1,7 +1,7 @@
 # Imersão Java - Alura 
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)<br>
-![site imdb](https://github.com/Rayane420/Java-alura/blob/main/imdb%20top%20250%20movies.gif)
+![site imdb](https://github.com/Rayane420/Java-alura/blob/main/assets/imdb%20top%20250%20movies.gif)
 ![GitHub Org's stars](https://img.shields.io/github/stars/Rayane420?style=social)
 
 ### AULA 01 - CONSUMINDO UMA API DE FILMES COM JAVA
@@ -38,6 +38,6 @@ Nessa primeira parte não usaremos bibliotecas externas
 2. Gerar figurinhas a partir de uma url
 
 Sticker gerado sendo usado no Whatsapp 📱: <br>
-<img src="https://github.com/Rayane420/Java-alura/blob/main/print_sticker.png" width="25%" height="30%"/> 
+<img src="https://github.com/Rayane420/Java-alura/blob/main/assets/print_sticker.png" width="25%" height="30%"/> 
 
 

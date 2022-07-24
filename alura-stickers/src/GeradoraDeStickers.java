@@ -34,7 +34,7 @@ public class GeradoraDeStickers {
         graphics.setFont(fonte);
 
         //add uma frase para a nova imagem
-        graphics.drawString("Top 250 IMDB", 160, novaAltura - 80);
+        graphics.drawString("Top 250 IMDB", 200, novaAltura - 80);
 
         //escrever a nova imagem em um arquivo
         ImageIO.write(novaImagem, "png", new File(nomeArquivo));

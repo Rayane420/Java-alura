@@ -12,7 +12,7 @@ public class App {
     public static void main(String[] args) throws Exception {
 
         //1- Fazer conexão http e buscar os top 250 filmes
-        String url = "https://api.mocki.io/v2/549a5d8b/Top250Movies";
+        String url = "https://raw.githubusercontent.com/alura-cursos/imersao-java/api/TopMovies.json";
         URI endereco = URI.create(url);
         var client = HttpClient.newHttpClient();
         var request = HttpRequest.newBuilder(endereco).GET().build();
@@ -28,9 +28,12 @@ public class App {
 
         //exibir e manipular dados
         var geradora = new GeradoraDeStickers();
-        for (Map<String,String> filme : listaDeFilmes) {
+        for (int i = 0; i < 10; i++) {
+            Map<String,String> filme = listaDeFilmes.get(i);
 
-            String urlImagem = filme.get("image");
+            String urlImagem = filme.get("image").replaceAll("(@+)(.*).jpg$", "$1.jpg");
+
+
             String titulo = filme.get("title").replace(":", " -");
 
             InputStream inputStream = new URL(urlImagem).openStream();

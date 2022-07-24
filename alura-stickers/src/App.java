@@ -12,7 +12,9 @@ public class App {
     public static void main(String[] args) throws Exception {
 
         //1- Fazer conexão http e buscar os top 250 filmes
-        String url = "https://raw.githubusercontent.com/alura-cursos/imersao-java/api/TopMovies.json";
+        //String url = "https://raw.githubusercontent.com/alura-cursos/imersao-java/api/TopMovies.json";
+
+        String url = "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&start_date=2022-06-12&end_date=2022-06-14";
         URI endereco = URI.create(url);
         var client = HttpClient.newHttpClient();
         var request = HttpRequest.newBuilder(endereco).GET().build();
@@ -22,19 +24,22 @@ public class App {
 
         //pegar só os dados que nos interessam(parsear dados) [titulo, poster, classificação...]
         var parser = new JsonParser();
-        List<Map<String, String>> listaDeFilmes = parser.parse(body);
+        List<Map<String, String>> listaDeConteudos = parser.parse(body);
         
        
 
         //exibir e manipular dados
         var geradora = new GeradoraDeStickers();
-        for (int i = 0; i < 10; i++) {
-            Map<String,String> filme = listaDeFilmes.get(i);
+        for (int i = 0; i < 3; i++) {
+            Map<String,String> conteudo = listaDeConteudos.get(i);
 
-            String urlImagem = filme.get("image").replaceAll("(@+)(.*).jpg$", "$1.jpg");
+            String urlImagem = 
+                //conteudo.get("image")
+                conteudo.get("url")
+                .replaceAll("(@+)(.*).jpg$", "$1.jpg");
 
 
-            String titulo = filme.get("title").replace(":", " -");
+            String titulo = conteudo.get("title").replace(":", " -");
 
             InputStream inputStream = new URL(urlImagem).openStream();
             String nomeArquivo = "saida/" + titulo + ".png";
